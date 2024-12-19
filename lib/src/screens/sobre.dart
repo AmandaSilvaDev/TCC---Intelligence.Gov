@@ -46,7 +46,7 @@ class About extends StatelessWidget {
               ),
               // Texto descritivo sobre o aplicativo.
               const Text(
-                'Este aplicativo foi desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) no curso de Análise e Desenvolvimento de Sistemas, turma de 2022, do Instituto Federal de Educação, Ciência e Tecnologia de Rondônia (IFRO). O aplicativo tem como objetivo fornecer aos usuários acesso de forma prática e estratégica a informações detalhadas sobre os deputados da Câmara dos Deputados do Brasil. Espera-se que a plataforma contribua para a fiscalização das atividades parlamentares, promovendo uma maior conscientização e senso crítico por parte dos cidadãos, e, assim, auxiliando na formação de um voto mais informado e responsável.'
+                'Este aplicativo foi desenvolvido como  Trabalho de Conclusão de Curso do curso de Análise e Desenvolvimento de Sistemas, turma de 2022, do Instituto Federal de Educação, Ciência e Tecnologia de Rondônia (IFRO).\n O aplicativo tem como objetivo fornecer aos usuários acesso de forma prática e estratégica a informações detalhadas sobre os deputados da Câmara dos Deputados do Brasil. Espera-se que a plataforma contribua para a fiscalização das atividades parlamentares, promovendo uma maior conscientização e senso crítico por parte dos cidadãos, e, assim, auxiliando na formação de um voto mais informado e responsável.'
                 ,
                 textAlign: TextAlign.center, // Alinha o texto ao centro.
                 style: TextStyle(

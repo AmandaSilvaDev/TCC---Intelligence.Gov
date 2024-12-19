@@ -13,7 +13,6 @@ import 'package:chamber_deputies/src/armazena_dados/front_details.dart';
 import 'package:chamber_deputies/src/models/deputados.dart';
 // Widgets
 import 'package:chamber_deputies/src/screens/fronts_details/widgets/information_widget.dart';
-import 'package:chamber_deputies/src/screens/fronts_details/widgets/list_members_widget.dart';
 
 class FrontDetails extends StatefulWidget {
   final FrontsModels front;
@@ -115,11 +114,6 @@ class _FrontsDetailsState extends State<FrontDetails> {
                     const SizedBox(height: 10),
                     InformationFrontWidget(
                       frontDetails: frontDetails,
-                      deputyDetailsPage: deputyDetailsPage,
-                    ),
-                    const SizedBox(height: 10),
-                    ListMembersWidget(
-                      front: widget.front,
                       deputyDetailsPage: deputyDetailsPage,
                     ),
                   ],
